@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+			background-color: #f9fafb;
+            display: flex;
+            color: #333;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 100%;
+}
+
+header {
+			background-color: #2C3E50; /* Dark blue-gray */
+		    padding: 15px 40px;
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    color: white;
+		    width: 100%;
+}
+
+header .logo img 
+{
+    height: 40px;
+}
+
+.nav-links {
+	display: flex;
+	gap: 15px;
+}
+
+.nav-links input {
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.profile-btn {
+			padding: 10px 20px;
+		    background-color: #17a2b8;
+		    color: white;
+		    border: none;
+		    border-radius: 5px;
+		    cursor: pointer;
+}
+
+/* General Container Styling */
+.main-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+    flex-grow: 1;
+    background-color: #f9f9f9; /* Light background for the entire container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Left Section Styling */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1; /* Make it flexible in width */
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    border: 2px solid #ff8c00; /* Orange border */
+    padding: 15px;
+    border-radius: 8px; /* Slight rounding of corners */
+    background-color: #fff; /* White background for the boxes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.info {
+    width: 100%;
+    border: 2px solid #333; /* Darker border for distinction */
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Payment Section Styling */
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    padding: 25px;
+    width: 100%;
+    height: 350px;
+    border: 2px solid #333;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.payment-options button {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: #fff;
+    border-radius: 6px; /* Rounded buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for hover effects */
+    width: 100%;
+    color: #333;
+}
+
+.payment-options button:hover {
+    background-color: #f0f0f0; /* Light grey on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.payment-options button:active {
+    background-color: #e0e0e0; /* Darker grey when clicked */
+    transform: translateY(1px); /* Push down effect */
+}
+
+.payment-details {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    min-height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.buttons-container {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 10px;
+	width: 100%;
+	padding-bottom: 70px;
+}
+
+.button {
+	padding: 15px 25px;
+	font-weight: bold;
+	cursor: pointer;
+	border: 2px solid black;
+	background: white;
+	color: black;
+}
+
+.button:hover {
+	background-color: red;
+	color: white;
+}
+
+footer {
+			text-align: center;
+		    padding: 20px;
+		    background-color: #343a40;
+		    color: white;
+}

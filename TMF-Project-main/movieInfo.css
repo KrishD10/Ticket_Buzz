@@ -1,0 +1,143 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f9fafb;
+            display: flex;
+            color: #333;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+        header {
+    		background-color: #2C3E50; /* Dark blue-gray */
+		    padding: 15px 40px;
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    color: white;
+		    width: 100%;
+}	
+
+        header .logo img {
+    	height: 40px;
+		}
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links input {
+            padding: 10px;
+            margin-right: 10px;
+		    border: 1px solid #ccc;
+		    border-radius: 5px;
+        }
+
+        .profile-btn {
+            padding: 10px 20px;
+		    background-color: #17a2b8;
+		    color: white;
+		    border: none;
+		    border-radius: 5px;
+		    cursor: pointer;
+        }
+
+        .main-container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+    flex-grow: 1;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Left Section */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #ff8c00; /* Orange border */
+    padding: 15px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.info {
+    width: 250px;
+    border: 2px solid #333; /* Darker border */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Theatre Selection - Distinct Styling */
+.theatre-selection {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    background-color: #fff; /* White background for theatre section */
+    border-radius: 12px; /* More rounded corners */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow for emphasis */
+    border: 2px solid #007bff; /* Blue border to separate it visually */
+}
+
+.theatre-selection h1 {
+    font-size: 28px; /* Larger font for title */
+    color: #333; /* Dark text color */
+    font-weight: 700; /* Bold for emphasis */
+    text-align: center; /* Center the heading */
+}
+
+.theatre-selection button {
+    padding: 18px 25px; /* Adjusted padding for larger buttons */
+    border: 2px solid #007bff; /* Blue border for buttons */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.theatre-selection button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.theatre-selection button:active {
+    background-color: #003d80; /* Even darker blue when clicked */
+    transform: translateY(1px); /* Subtle press effect */
+}
+
+        footer {
+            text-align: center;
+		    padding: 20px;
+		    background-color: #343a40;
+		    color: white;
+        }
+
+        .theatre-selection button:hover {
+        background-color: red;
+        color: white;
+}
+

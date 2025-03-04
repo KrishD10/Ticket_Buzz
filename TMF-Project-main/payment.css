@@ -1,0 +1,161 @@
+/* Reset and General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    		background-color: #f9fafb;
+            display: flex;
+            color: #333;
+            flex-direction: column;
+            min-height: 100vh;
+            width: 100%;
+}
+
+        header {
+            background-color: #2C3E50; /* Dark blue-gray */
+		    padding: 15px 40px;
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    color: white;
+		    width: 100%;
+        }
+
+header .logo img 
+{
+    height: 40px;
+}
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links input {
+            padding: 10px;
+            border: 2px solid black;
+        }
+
+        .profile-btn {
+            padding: 10px 20px;
+		    background-color: #17a2b8;
+		    color: white;
+		    border: none;
+		    border-radius: 5px;
+		    cursor: pointer;
+        }
+
+/* Main Content */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fafb;
+}
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better spacing */
+    border: none; /* Removed the border to give it a cleaner look */
+    padding: 25px;
+    max-width: 450px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow for a more lifted effect */
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px auto; /* Center the payment section */
+}
+
+.payment-title {
+    font-size: 2rem; /* Larger font for title */
+    font-weight: 600; /* Slightly lighter weight for better balance */
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px; /* Increased space below the title */
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem; /* Increased space between form groups */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px; /* More space between label and input */
+    font-weight: bold;
+    color: #333;
+    font-size: 1.1rem; /* Slightly larger font for readability */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1rem; /* Increased padding for better usability */
+    border: 2px solid #ccc; /* Softer border color for inputs */
+    border-radius: 8px; /* More rounded corners for inputs */
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus and hover */
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Add subtle focus shadow */
+}
+
+.row {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem; /* Increased gap for better spacing */
+}
+
+.row .form-group {
+    flex: 1;
+}
+
+/* Button Styling */
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px; /* Added top margin for spacing */
+}
+
+.button {
+    padding: 15px 30px; /* More padding for larger buttons */
+    font-weight: 600; /* Slightly lighter text for better readability */
+    font-size: 1.1rem; /* Larger font size */
+    cursor: pointer;
+    border: 2px solid #007bff; /* Blue border for consistency */
+    background-color: #fff;
+    color: #007bff; /* Blue text */
+    border-radius: 8px; /* Rounded button corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    min-width: 150px; /* Set minimum button width for consistency */
+}
+
+.button:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: white; /* White text on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+}
+
+.button:active {
+    background-color: #0056b3; /* Darker blue when clicked */
+    transform: translateY(1px); /* Pressed effect */
+}
+
+footer {
+    		text-align: center;
+		    padding: 20px;
+		    background-color: #343a40;
+		    color: white;
+}
